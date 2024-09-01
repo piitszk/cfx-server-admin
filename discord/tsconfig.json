@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["ES6"],
+    "paths": {
+      "@/*": ["./code/*", "./dist/*"],
+      "@/events": ["./events"],
+      "@/commands": ["./commands"],
+      "@/utils": ["./utils"],
+      "@/types": ["./types"],
+    },
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "rootDir": "./code",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true
+  },
+
+  "include": ["code/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,6 @@
+{
+    "APPLICATION_TOKEN": "discord_token",
+    "APPLICATION_ID": "discord_id",
+    "API_SERVER": "https://address:port/cfx-server-admin",
+    "API_SERVER_KEY": "cfx_licenseKey"
+}

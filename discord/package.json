@@ -1,0 +1,37 @@
+{
+  "name": "cfx-server-admin",
+  "version": "1.0.0",
+  "description": "Administrate your fivem server with discord",
+  "main": "dist/core.js",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.18.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "memory-cache": "^0.2.0",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "tsx code/core.ts",
+    "build": "tsc",
+    "start": "node -r tsconfig-paths/register dist/core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piitszk/cfx-server-admin"
+  },
+  "keywords": [
+    "cfx",
+    "fivem",
+    "server",
+    "data",
+    "discord",
+    "bot"
+  ],
+  "author": "piitszk",
+  "license": "ISC"
+}
